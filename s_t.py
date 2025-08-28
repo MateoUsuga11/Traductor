@@ -76,23 +76,23 @@ if result:
         ("Inglés", "Español", "Bengali", "Coreano", "Mandarín", "Japonés, italiano, frances, aleman"),
     )
     if in_lang == "Inglés":
-    input_language = "en"
-elif in_lang == "Español":
-    input_language = "es"
-elif in_lang == "Bengali":
-    input_language = "bn"
-elif in_lang == "Coreano":
-    input_language = "ko"
-elif in_lang == "Mandarín":
-    input_language = "zh-cn"
-elif in_lang == "Japonés":
-    input_language = "ja"
-elif in_lang == "Italiano":
-    input_language = "it"
-elif in_lang == "Francés":
-    input_language = "fr"
-elif in_lang == "Alemán":
-    input_language = "de"
+        input_language = "en"
+    elif in_lang == "Español":
+        input_language = "es"
+    elif in_lang == "Bengali":
+        input_language = "bn"
+    elif in_lang == "Coreano":
+        input_language = "ko"
+    elif in_lang == "Mandarín":
+        input_language = "zh-cn"
+    elif in_lang == "Japonés":
+        input_language = "ja"
+    elif in_lang == "Italiano":
+        input_language = "it"
+    elif in_lang == "Francés":
+        input_language = "fr"
+    elif in_lang == "Alemán":
+        input_language = "de"
 
     
     out_lang = st.selectbox(
@@ -100,23 +100,23 @@ elif in_lang == "Alemán":
         ("Inglés", "Español", "Bengali", "Coreano", "Mandarín", "Japonés, italiano, frances, aleman"),
     )
     if in_lang == "Inglés":
-    input_language = "en"
-elif in_lang == "Español":
-    input_language = "es"
-elif in_lang == "Bengali":
-    input_language = "bn"
-elif in_lang == "Coreano":
-    input_language = "ko"
-elif in_lang == "Mandarín":
-    input_language = "zh-cn"
-elif in_lang == "Japonés":
-    input_language = "ja"
-elif in_lang == "Italiano":
-    input_language = "it"
-elif in_lang == "Francés":
-    input_language = "fr"
-elif in_lang == "Alemán":
-    input_language = "de"
+        input_language = "en"
+    elif in_lang == "Español":
+        input_language = "es"
+    elif in_lang == "Bengali":
+        input_language = "bn"
+    elif in_lang == "Coreano":
+        input_language = "ko"
+    elif in_lang == "Mandarín":
+        input_language = "zh-cn"
+    elif in_lang == "Japonés":
+        input_language = "ja"
+    elif in_lang == "Italiano":
+        input_language = "it"
+    elif in_lang == "Francés":
+        input_language = "fr"
+    elif in_lang == "Alemán":
+        input_language = "de"
 
     
     english_accent = st.selectbox(
